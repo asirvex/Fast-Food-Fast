@@ -1,0 +1,236 @@
+body {
+    background-image: url("back1.jpeg");
+    margin: 0px;
+    background-size: cover;
+    align-content: center;    
+}
+
+
+.topnav {
+    margin: 0px;
+    background-color: #E47A2E;
+    overflow: hidden;
+    opacity: 0.98;
+}
+
+.topnav #logo{
+    font-family: cursive;
+    float: left;
+    color: #C0AB8E;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav #logo:hover {
+    background-color: #D1B894;
+    color: #7F4145;;
+}
+
+.topnav a{
+    float: right;
+    color: #440000;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.topnav a:hover{
+    background-color: rgba(100, 0, 0, 0.582);
+    color: black;
+}
+
+topnav a.active{
+    background-color: darkred;
+    color: white;
+}
+
+
+
+.forms {
+    background: #C0AB8E;
+    opacity: 0.98;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    width: 40%;
+    font-size: 17px;
+    align-content: left;
+    box-shadow: 0 0 0 1pt #7F4145;
+    border-radius: 15px;
+    position: relative;
+}
+
+input[type=text], input[type=password]{
+    width: 95%;
+    padding: 5px;
+    margin: 4px 0 8px 0;
+    display: inline-block;
+    border: navy;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color:#ddd;
+    outline: none;
+}
+
+hr {
+    border: 0.5px solid #000000;
+    margin-bottom: 10px;
+}
+
+.signupbtn{
+    background-color: #A9754F;
+    color:white;
+    font-size: 18px;
+    padding: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.signupbtn:hover{
+    opacity: 1;
+}
+
+
+.loginbtn{
+    background-color: #A9754F;
+    color:white;
+    font-size: 22px;
+    padding: 20px 24px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.8;
+    float: right;
+}
+
+.loginbtn:hover{
+    opacity: 1;
+}
+
+
+.information{
+	float:left;
+	margin-top: 12px;
+	font-size: 18px;
+	width:50%;
+	background-color: #ededed; 
+	opacity:0.8;
+	padding:12px;
+   
+}
+
+.container{
+    float: left;
+    margin-top: 5px;
+    font-size: 20;
+    align-content: center;
+    background-color: #ededed;
+    opacity: 0.94;
+    padding: 5px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+#products{
+    background-color: #E47A2E;
+    border-radius: 5px;
+}
+
+#products ul{
+    list-style-type: none;
+}
+
+#products li{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+table{
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid #C0AB8E;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #C0AB8E;
+}
+
+
+.tablebtn {
+    background-color: #ededed;
+    color:black;
+    font-size: 24px;
+    padding: 6px 6px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    float: center;
+}
+
+.cart{
+	float:right;
+    margin-top: 12px;
+    margin: 12px; 
+	font-size: 18px;
+	width:50%;
+	background-color: #ededed; 
+	opacity:0.98;
+    padding:12px;
+    width: 15%;
+    outline: 2px solid #7F4145;   
+}
+
+.cart tr:last-child { 
+    background: #7F4145; 
+    font-weight: bold;
+}
+
+.sidebar{
+    float: right;
+    height: 700px;
+    width: 20%;
+    opacity: 1;
+    top: 10;
+    right: 0;
+    background-color: #FAFAD2;
+}
+
+.sidebar h1{
+    font-stretch: wider;
+    text-align: center;
+
+}
+
+footer{
+	background:#E47A2E;
+	margin-top:40px;
+	padding-top:30px; 
+	min-height:30px;
+	text-align: center;
+	position:fixed;
+	bottom: 0;
+	height:14px;
+	width:100%;
+
+}
