@@ -9,11 +9,11 @@
             <div class = "topnav">
                 <a href="#" id="logo">Fast-Food-Fast</a>
                 <a href = "#">Log Out</a>
-                <a href = "#">History</a>
+                <a href = "#" onclick="history('sidebar')">History</a>
             </div>
         </header>
 
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <h1>History</h1>
             <ul>
                 <li>item</li>
@@ -21,6 +21,31 @@
             </ul>
         </div>
 
+        <div class="cart">
+                <label for="item">Items on cart</label>
+                <table>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <tr>
+                    <td>Item1</td>
+                    <td>Ksh. 100</td>
+                    </tr>
+                    <tr>
+                    <td>Item2</td>
+                    <td>Ksh. 100</td>
+                    </tr>
+                    <tr id="total">
+                    <td>Total</td>
+                    <td>Ksh. 100</td>
+                    </tr>
+                </table>
+               
+                <form>
+    
+                </form>
+            </div>
+
+            
         <div class="container">
             <section id="products">
                 <ul>
@@ -33,7 +58,7 @@
                                 <td>Chipo</td>
                                 <td>1/2</td>
                                 <td>Ksh. 100</td>
-                                <td><button type="submit" class="tablebtn">+</button></td>
+                                <td><button type="submit" class="admintablebtn">+</button></td>
                                 
                             </tr>
 
@@ -70,28 +95,7 @@
             </section>
         </div>
 
-        <div class="cart">
-            <label for="item">Items on cart</label>
-            <table>
-                <th>Item</th>
-                <th>Price</th>
-                <tr>
-                <td>Item1</td>
-                <td>Ksh. 100</td>
-                </tr>
-                <tr>
-                <td>Item2</td>
-                <td>Ksh. 100</td>
-                </tr>
-                <tr id="total">
-                <td>Total</td>
-                <td>Ksh. 100</td>
-                </tr>
-            </table>
-           
-            <form>
-
-            </form>
-        </div>
+        
+        <script src = "script.js"></script>
     </body>
 </html>

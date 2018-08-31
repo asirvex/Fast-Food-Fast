@@ -20,7 +20,7 @@ body {
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .topnav #logo:hover {
@@ -34,7 +34,8 @@ body {
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .topnav a:hover{
@@ -83,19 +84,18 @@ hr {
     margin-bottom: 10px;
 }
 
-.signupbtn{
+.btn{
     background-color: #A9754F;
     color:white;
     font-size: 18px;
     padding: 8px;
     margin: 8px 0;
     cursor: pointer;
-    width: 30%;
     opacity: 0.8;
     border-radius: 5px;
 }
 
-.signupbtn:hover{
+.btn:hover{
     opacity: 1;
 }
 
@@ -131,7 +131,7 @@ hr {
 
 .container{
     float: left;
-    margin-top: 5px;
+    margin:1% 5%;
     font-size: 20;
     align-content: center;
     background-color: #ededed;
@@ -178,18 +178,20 @@ td {
 .tablebtn {
     background-color: #ededed;
     color:black;
-    font-size: 24px;
+    font-size: 18px;
     padding: 6px 6px;
     margin: 0;
-    border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.8;
     float: center;
+    border: 1px solid #E47A2E;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .cart{
-	float:right;
+	float:left;
     margin-top: 12px;
     margin: 12px; 
 	font-size: 18px;
@@ -198,7 +200,8 @@ td {
 	opacity:0.98;
     padding:12px;
     width: 15%;
-    outline: 2px solid #7F4145;   
+    outline: 2px solid #7F4145; 
+    margin: 1% 5% ;  
 }
 
 .cart tr:last-child { 
@@ -214,6 +217,7 @@ td {
     top: 10;
     right: 0;
     background-color: #FAFAD2;
+    display: none;
 }
 
 .sidebar h1{
@@ -225,12 +229,43 @@ td {
 footer{
 	background:#E47A2E;
 	margin-top:40px;
-	padding-top:30px; 
-	min-height:30px;
+	padding-top:px; 
 	text-align: center;
 	position:fixed;
 	bottom: 0;
-	height:14px;
-	width:100%;
+    width:100%;
 
+    
+
+}
+
+.orders{
+    margin: 0 auto;
+    margin-top: 10%;
+    font-size: 100%;
+    align-content: center;
+    background-color: #ededed;
+    opacity: 0.94;
+    padding: 5px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+
+.admintablebtn {
+    background-color: #C0AB8E;
+    color:black;
+    font-size: 24%;
+    padding: 6px 6px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    float: center;
+    border-radius: 15px;
+}
+
+.admintablebtn:hover{
+    opacity: 1;
 }
